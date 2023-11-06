@@ -1,0 +1,316 @@
+Question No.,Name,Solution Link,Difficulty,Tags,Discuss Link
+100,Same Tree,https://leetcode.com/problems/same-tree/description/,Easy,Tree / DFS,https://discuss.leetcode.com/topic/119725/3-lines-c-dfs-bfs
+101,Symmetric Tree,https://leetcode.com/problems/symmetric-tree/description/,Easy,Tree,https://leetcode.com/problems/symmetric-tree/discuss/122862/Straightforward-C++-recursive-iterative-solution
+102,Binary Tree Level Order Traversal,https://leetcode.com/problems/binary-tree-level-order-traversal/description/,Medium,Tree / DFS / BFS,https://discuss.leetcode.com/topic/97026/clean-c-bfs-dfs-solutions
+103,Binary Tree Zigzag Level Order Traversal,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/,Medium,Tree / BFS,https://discuss.leetcode.com/topic/107704/3ms-c-bfs
+104,Maximum Depth of Binary Tree,https://leetcode.com/problems/maximum-depth-of-binary-tree/description/,Easy,Tree,https://discuss.leetcode.com/topic/77605/2-lines-c-dfs
+105,Construct Binary Tree from Preorder and Inorder Traversal,https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/,Medium,Array / Tree / DFS,https://discuss.leetcode.com/topic/97266/c-8-9-11-lines-of-recursion
+107,Binary Tree Level Order Traversal II,https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/,Easy,Tree,https://leetcode.com/problems/binary-tree-level-order-traversal-ii/discuss/122866/9-lines-C++
+108,Convert Sorted Array to Binary Search Tree,https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/,Easy,Tree / DFS,https://discuss.leetcode.com/topic/86819/c-13ms-recursion
+109,Convert Sorted List to Binary Search Tree,https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/,Medium,Linked List / DFS,https://discuss.leetcode.com/topic/97670/simple-c-divide-conquer-o-1-space
+111,Minimum Depth of Binary Tree,https://leetcode.com/problems/minimum-depth-of-binary-tree/description/,Easy,Tree,https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/123625/4-lines-C++
+112,Path Sum,https://leetcode.com/problems/path-sum/description/,Easy,Tree / DFS,https://leetcode.com/problems/path-sum/discuss/123050/4-lines-C++
+113,Path Sum II,https://leetcode.com/problems/path-sum-ii/description/,Medium,Tree / DFS,https://discuss.leetcode.com/topic/101541/13-lines-c-dfs
+114,Flatten Binary Tree to Linked List,https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/,Medium,Tree / DFS,https://discuss.leetcode.com/topic/104435/11-lines-c-o-1-space-dfs
+116,Populating Next Right Pointers in Each Node,https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/,Medium,Tree / BFS,https://discuss.leetcode.com/topic/82444/simple-c-15ms-bfs-solution
+117,Populating Next Right Pointers in Each Node II,https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/description/,Medium,Tree / Level-order Traversal,https://discuss.leetcode.com/topic/82450/c-25ms-two-deque-solution-beats-91-9
+118,Pascal's Triangle,https://leetcode.com/problems/pascals-triangle/description/,Easy,Array,https://leetcode.com/problems/pascals-triangle/discuss/123054/9-lines-C++-recursion
+119,Pascal's Triangle II,https://leetcode.com/problems/pascals-triangle-ii/description/,Easy,Array,https://leetcode.com/problems/pascals-triangle-ii/discuss/123057/My-7-lines-C++-recursion
+120,Triangle,https://leetcode.com/problems/triangle/description/,Medium,Array / Dynamic Programming,https://leetcode.com/problems/triangle/discuss/123061/6-lines-C++-bottom-up
+121,Best Time to Buy and Sell Stock,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/,Easy,Array / Dynamic Programming,https://discuss.leetcode.com/topic/101067/clean-c-dp-with-explanation
+124,Binary Tree Maximum Path Sum,https://leetcode.com/problems/binary-tree-maximum-path-sum/description/,Hard,Tree / DFS,https://discuss.leetcode.com/topic/104532/8-lines-c-similar-to-diameter-of-tree
+125,Valid Palindrome,https://leetcode.com/problems/valid-palindrome/description/,Easy,String / Two Pointers,https://discuss.leetcode.com/topic/101068/7-lines-c
+127,Word Ladder,https://leetcode.com/problems/word-ladder/description/,Medium,String / BFS,https://discuss.leetcode.com/topic/101076/clean-c-bfs
+128,Longest Consecutive Sequence,https://leetcode.com/problems/longest-consecutive-sequence/description/,Hard,Array / Unoin Find,https://discuss.leetcode.com/topic/100724/10-lines-c
+129,Sum Root to Leaf Numbers,https://leetcode.com/problems/sum-root-to-leaf-numbers/description/,Medium,Tree / DFS / BFS,https://leetcode.com/problems/sum-root-to-leaf-numbers/discuss/121401/C++-DFS-and-BFS-solution
+130,Surrounded Regions,https://leetcode.com/problems/surrounded-regions/description/,Medium,DFS / BFS / Union Find,https://discuss.leetcode.com/topic/119417/c-dfs-union-find-solution
+131,Palindrome Partitioning,https://leetcode.com/problems/palindrome-partitioning/description/,Medium,Backtracking,https://leetcode.com/problems/palindrome-partitioning/discuss/129637/C++-backtracking
+133,Clone Graph,https://leetcode.com/problems/clone-graph/description/,Medium,Graph / DFS / BFS,https://discuss.leetcode.com/topic/101082/clean-c-dfs-29ms
+134,Gas Station,https://leetcode.com/problems/gas-station/description/,Medium,Greedy,https://leetcode.com/problems/gas-station/discuss/198746/Simple-C++-greedy
+136,Single Number,https://leetcode.com/problems/single-number/description/,Easy,Bit Manipulation,https://leetcode.com/problems/single-number/discuss/129372/3-lines-C++
+138,Copy List with Random Pointer,https://leetcode.com/problems/copy-list-with-random-pointer/description/,Medium,Hash Table / Linked List,https://leetcode.com/problems/copy-list-with-random-pointer/discuss/131629/Simple-C++-hashmap-solution
+139,Word Break,https://leetcode.com/problems/word-break/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/101231/clean-c-9ms-dp
+141,Linked List Cycle,https://leetcode.com/problems/linked-list-cycle/description/,Easy,Linked List / Two Pointers,https://leetcode.com/problems/linked-list-cycle/discuss/131632/7-lines-C++
+142,Linked List Cycle II,https://leetcode.com/problems/linked-list-cycle-ii/description/,Medium,Linked List / Two Pointers,https://leetcode.com/problems/linked-list-cycle-ii/discuss/131635/10ms-C++-solution
+143,Reorder List,https://leetcode.com/problems/reorder-list/description/,Medium,Linked List,https://discuss.leetcode.com/topic/96122/clear-c-o-1-space-solution
+144,Binary Tree Preorder Traversal,https://leetcode.com/problems/binary-tree-preorder-traversal/description/,Medium,Tree / Stack,https://leetcode.com/problems/binary-tree-preorder-traversal/discuss/131640/Simple-C++-iterative-solution
+145,Binary Tree Postorder Traversal,https://leetcode.com/problems/binary-tree-postorder-traversal/description/,Hard,Tree / Stack,https://discuss.leetcode.com/topic/107713/c-iterative-recursive-solutions
+146,LRU Cache,https://leetcode.com/problems/lru-cache/description/,Hard,Design,https://discuss.leetcode.com/topic/109805/concise-c-82ms-hash-table-deque-solution
+151,Reverse Words in a String,https://leetcode.com/problems/reverse-words-in-a-string/description/,Medium,String,https://discuss.leetcode.com/topic/102920/c-o-1-space
+155,Min Stack,https://leetcode.com/problems/min-stack/description/,Easy,Stack / Design,https://discuss.leetcode.com/topic/105788/8-lines-c
+157,Read N Characters Given Read4,https://leetcode.com/problems/read-n-characters-given-read4/description/,Easy,String,https://discuss.leetcode.com/topic/99943/6-lines-c
+158,Read N Characters Given Read4 II - Call multiple times,https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/description/,Hard,String,https://discuss.leetcode.com/topic/99964/11-lines-c
+159,Longest Substring with At Most Two Distinct Characters,https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/description/,Hard,String / Two Pointers,https://discuss.leetcode.com/topic/108306/c-two-pointers-unordered_set
+161,One Edit Distance,https://leetcode.com/problems/one-edit-distance/description/,Medium,String,https://discuss.leetcode.com/topic/99986/3ms-c-o-n-easy-to-understand
+162,Find Peak Element,https://leetcode.com/problems/find-peak-element/description/,Medium,Binary Search,https://leetcode.com/problems/find-peak-element/discuss/198516/C++-binary-search-easy-to-understand
+163,Missing Ranges,https://leetcode.com/problems/missing-ranges/description/,Medium,Array,https://discuss.leetcode.com/topic/105592/my-0ms-c
+168,Excel Sheet Column Title,https://leetcode.com/problems/excel-sheet-column-title/description/,Easy,Math,https://discuss.leetcode.com/topic/101242/my-clean-c-solution
+169,Majority Element,https://leetcode.com/problems/majority-element/description/,Easy,Array,https://discuss.leetcode.com/topic/85909/c-2-lines-o-n-space-and-8-lines-o-1-space-boyer-moore-solutions
+171,Excel Sheet Column Number,https://leetcode.com/problems/excel-sheet-column-number/description/,Easy,Math,https://leetcode.com/problems/excel-sheet-column-number/discuss/134153/6-lines-C++
+173,Binary Search Tree Iterator,https://leetcode.com/problems/binary-search-tree-iterator/description/,Medium,Tree / Stack / Design,https://discuss.leetcode.com/topic/101246/short-c-o-n-o-h-space-solutions
+191,Number of 1 Bits,https://leetcode.com/problems/number-of-1-bits/description/,Easy,Bit Manipulation,https://discuss.leetcode.com/topic/85894/6-lines-c
+198,House Robber,https://leetcode.com/problems/house-robber/description/,Easy,Dynamic Programming,https://discuss.leetcode.com/topic/109111/7-lines-c-dp
+200,Number of Islands,https://leetcode.com/problems/number-of-islands/description/,Medium,BFS / Union Find,https://discuss.leetcode.com/topic/94352/clean-c-bfs
+205,Isomorphic Strings,https://leetcode.com/problems/isomorphic-strings/description/,Easy,Hash Table,https://leetcode.com/problems/isomorphic-strings/discuss/198484/C++-hashmap-easy-to-understand
+206,Reverse Linked List,https://leetcode.com/problems/reverse-linked-list/description/,Easy,Linked List,https://discuss.leetcode.com/topic/101258/simple-c-iterative-and-recursive
+207,Course Schedule,https://leetcode.com/problems/course-schedule/description/,Medium,Graph / BFS / Topological Sort,https://discuss.leetcode.com/topic/101302/short-c-bfs-topological-sort
+209,Minimum Size Subarray Sum,https://leetcode.com/problems/minimum-size-subarray-sum/description/,Medium,Array / Two Pointers,https://discuss.leetcode.com/topic/100119/c-o-n-two-pointers
+210,Course Schedule II,https://leetcode.com/problems/course-schedule-ii/description/,Medium,Graph / BFS / Topological Sort,https://discuss.leetcode.com/topic/101303/short-c-bfs
+211,Add and Search Word - Data structure design,https://leetcode.com/problems/add-and-search-word-data-structure-design/description/,Medium,Design / Trie,https://discuss.leetcode.com/topic/100013/c-62ms-beats-100
+212,Word Search II,https://leetcode.com/problems/word-search-ii/description/,Hard,Backtracking / Trie,https://discuss.leetcode.com/topic/83017/c-462-ms-brute-force-and-35-ms-trie-solution
+214,Shortest Palindrome,https://leetcode.com/problems/shortest-palindrome/description/,Hard,String,https://discuss.leetcode.com/topic/107629/5-lines-c
+215,Kth Largest Element in an Array,https://leetcode.com/problems/kth-largest-element-in-an-array/description/,Medium,Sort / Partition,https://discuss.leetcode.com/topic/101309/c-o-nlogn-and-o-n-using-partition
+221,Maximal Square,https://leetcode.com/problems/maximal-square/description/,Medium,Dynamic Programming / BFS,https://github.com/fengvyi/LeetCode/blob/master/C%2B%2B/221.%20Maximal%20Square.cpp
+223,Rectangle Area,https://leetcode.com/problems/rectangle-area/description/,Medium,Math,https://discuss.leetcode.com/topic/77094/clean-9-lines-c-updated
+224,Basic Calculator,https://leetcode.com/problems/basic-calculator/description/,Hard,String / Stack,https://discuss.leetcode.com/topic/108357/c-13ms-stack-solution
+226,Invert Binary Tree,https://leetcode.com/problems/invert-binary-tree/description/,Easy,Tree,https://discuss.leetcode.com/topic/85926/clean-c-recursive-iterative-solution
+227,Basic Calculator II,https://leetcode.com/problems/basic-calculator-ii/description/,Medium,String,https://discuss.leetcode.com/topic/98114/clean-16-lines-c-using-lambda
+228,Summary Ranges,https://leetcode.com/problems/summary-ranges/description/,Medium,Array,https://discuss.leetcode.com/topic/108363/6-lines-c
+229,Majority Element II,https://leetcode.com/problems/majority-element-ii/description/,Medium,Array,https://discuss.leetcode.com/topic/85914/c-12-ms-o-1-space-boyer-moore-majority-vote-algorithm
+230,Kth Smallest Element in a BST,https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/,Medium,Tree,https://discuss.leetcode.com/topic/80538/two-8-lines-solutions-in-c-easy-to-understand
+231,Power of Two,https://leetcode.com/problems/power-of-two/description/,Easy,Bit Manipulation,https://discuss.leetcode.com/topic/108365/one-line-c
+234,Palindrome Linked List,https://leetcode.com/problems/palindrome-linked-list/description/,Easy,Linked List / Two Pointers,https://discuss.leetcode.com/topic/101317/clean-c-o-1-space
+235,Lowest Common Ancestor of a Binary Search Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/,Easy,Tree,https://discuss.leetcode.com/topic/86300/share-my-c-26ms-recursion
+236,Lowest Common Ancestor of a Binary Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/,Medium,Tree,https://discuss.leetcode.com/topic/79268/c-dfs-brute-force-solution
+238,Product of Array Except Self,https://leetcode.com/problems/product-of-array-except-self/description/,Medium,Array,https://discuss.leetcode.com/topic/101324/c-o-n
+240,Search a 2D Matrix II,https://leetcode.com/problems/search-a-2d-matrix-ii/description/,Medium,Binary Search / Divide and Conquer,https://discuss.leetcode.com/topic/108479/two-c-solutions
+246,Strobogrammatic Number,https://leetcode.com/problems/strobogrammatic-number/description/,Easy,Hash Table / Math,https://discuss.leetcode.com/topic/91838/7-lines-c-0ms
+247,Strobogrammatic Number II,https://leetcode.com/problems/strobogrammatic-number-ii/description/,Medium,Math / Recursion,https://discuss.leetcode.com/topic/105993/c-recursion
+249,Group Shifted Strings,https://leetcode.com/problems/group-shifted-strings/description/,Medium,String,https://discuss.leetcode.com/topic/105677/6ms-c-easy-to-understand
+251,Flatten 2D Vector,https://leetcode.com/problems/flatten-2d-vector/description/,Medium,Design,https://discuss.leetcode.com/topic/104514/6-lines-c
+252,Meeting Rooms,https://leetcode.com/problems/meeting-rooms/description/,Easy,Sort,https://discuss.leetcode.com/topic/88677/c-4-lines-concise-solution-using-lambda
+253,Meeting Rooms II,https://leetcode.com/problems/meeting-rooms-ii/description/,Medium,Heap / Sort,https://discuss.leetcode.com/topic/98299/c-11-lines-9ms-min-heap
+255,Verify Preorder Sequence in Binary Search Tree,https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/description/,Medium,Stack / Tree,https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/discuss/116243/7-lines-C++-DandC
+257,Binary Tree Paths,https://leetcode.com/problems/binary-tree-paths/description/,Easy,Tree / DFS / BFS,https://discuss.leetcode.com/topic/87776/c-simple-12-lines-3ms-dfs
+258,Add Digits,https://leetcode.com/problems/add-digits/description/,Easy,Math,https://discuss.leetcode.com/topic/85916/1-line-c
+259,3Sum Smaller,https://leetcode.com/problems/3sum-smaller/description/,Medium,Array / Two Pointers,https://discuss.leetcode.com/topic/105684/8-lines-c-o-n-2
+261,Graph Valid Tree,https://leetcode.com/problems/graph-valid-tree/description/,Medium,Graph / BFS / DFS / Union Find,https://discuss.leetcode.com/topic/100516/clean-c-bfs-9ms-find-circle-in-graph
+263,Ugly Number,https://leetcode.com/problems/ugly-number/description/,Easy,Math,https://discuss.leetcode.com/topic/102165/one-line-c
+264,Ugly Number II,https://leetcode.com/problems/ugly-number-ii/description/,Medium,Dynamic Programming / Math,https://discuss.leetcode.com/topic/102172/10-lines-c
+266,Palindrome Permutation,https://leetcode.com/problems/palindrome-permutation/description/,Easy,Hash Table,https://discuss.leetcode.com/topic/91044/4-lines-c-hash-table
+267,Palindrome Permutation II,https://leetcode.com/problems/palindrome-permutation-ii/description/,Medium,Backtracking,https://leetcode.com/problems/palindrome-permutation-ii/discuss/121889/3ms-C++-backtracking
+268,Missing Number,https://leetcode.com/problems/missing-number/description/,Easy,Array / Bit Manipulation,https://leetcode.com/problems/missing-number/discuss/131408/3-lines-C++
+269,Alien Dictionary,https://leetcode.com/problems/alien-dictionary/description/,Hard,Graph / Topological Sort,https://discuss.leetcode.com/topic/107067/short-c-bfs-topological-sort
+270,Closest Binary Search Tree Value,https://leetcode.com/problems/closest-binary-search-tree-value/description/,Easy,Tree / Binary Search,https://discuss.leetcode.com/topic/108393/7-lines-c
+271,Encode and Decode Strings,https://leetcode.com/problems/encode-and-decode-strings/description/,Medium,String / Design,https://discuss.leetcode.com/topic/104401/c-encode-with
+272,Closest Binary Search Tree Value II,https://leetcode.com/problems/closest-binary-search-tree-value-ii/description/,Hard,Tree / Stack,https://discuss.leetcode.com/topic/109470/10-lines-c-o-nlogk-maxheap-solution
+273,Integer to English Words,https://leetcode.com/problems/integer-to-english-words/description/,Hard,String,https://discuss.leetcode.com/topic/104627/3ms-short-c
+274,H-Index,https://leetcode.com/problems/h-index/description/,Medium,Sort,https://discuss.leetcode.com/topic/101496/4-lines-c
+275,H-Index II,https://leetcode.com/problems/h-index-ii/description/,Medium,Binary Search,https://discuss.leetcode.com/topic/102873/c-3-lines-o-n-8-lines-binary-search-o-logn
+276,Paint Fence,https://leetcode.com/problems/paint-fence/description/,Easy,Dynamic Programming,https://discuss.leetcode.com/topic/91156/4-lines-c
+277,Find the Celebrity,https://leetcode.com/problems/find-the-celebrity/description/,Medium,Array,https://discuss.leetcode.com/topic/99937/c-o-n
+278,First Bad Version,https://leetcode.com/problems/first-bad-version/description/,Easy,Binary Search,https://discuss.leetcode.com/topic/86885/c-5-lines-0ms-binary-search
+279,Perfect Squares,https://leetcode.com/problems/perfect-squares/description/,Medium,Math / Dynamic Programming,https://discuss.leetcode.com/topic/108483/c-6ms-static-dp
+280,Wiggle Sort,https://leetcode.com/problems/wiggle-sort/description/,Easy,Array,https://discuss.leetcode.com/topic/97352/short-c
+281,Zigzag Iterator,https://leetcode.com/problems/zigzag-iterator/description/,Medium,Design,https://discuss.leetcode.com/topic/104332/c-o-1-space-and-follow-up-for-k-vectors
+282,Expression Add Operators,https://leetcode.com/problems/expression-add-operators/description/,Hard,Divide and Conquer,https://discuss.leetcode.com/topic/99983/c-backtracking
+283,Move Zeroes,https://leetcode.com/problems/move-zeroes/description/,Easy,Array / Two Pointers,https://discuss.leetcode.com/topic/85925/c-3-lines-solution
+284,Peeking Iterator,https://leetcode.com/problems/peeking-iterator/description/,Medum,Design,https://discuss.leetcode.com/topic/105798/c-using-deque
+285,Inorder Successor in BST,https://leetcode.com/problems/inorder-successor-in-bst/description/,Medium,Tree,https://discuss.leetcode.com/topic/100023/c-solution-for-any-binary-tree
+286,Walls and Gates,https://leetcode.com/problems/walls-and-gates/description/,Medium,BFS,https://discuss.leetcode.com/topic/100331/c-bfs-from-inf-or-0
+289,Game of Life,https://leetcode.com/problems/game-of-life/description/,Medium,Array,https://discuss.leetcode.com/topic/95672/c-in-place-solution
+290,Word Pattern,https://leetcode.com/problems/word-pattern/description/,Easy,Hash Table,https://discuss.leetcode.com/topic/107956/11-lines-c
+293,Flip Game,https://leetcode.com/problems/flip-game/description/,Easy,String,https://discuss.leetcode.com/topic/108535/8-lines-c
+294,Flip Game II,https://leetcode.com/problems/flip-game-ii/description/,Medium,Backtracking,https://discuss.leetcode.com/topic/108539/7-lines-c
+295,Find Median from Data Stream,https://leetcode.com/problems/find-median-from-data-stream/description/,Hard,Heap / Design,https://discuss.leetcode.com/topic/107631/c-two-heaps
+297,Serialize and Deserialize Binary Tree,https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/,Hard,Tree / Design,https://discuss.leetcode.com/topic/99965/c-8-lines-cheat-solution-22-ms-beats-99-57
+298,Binary Tree Longest Consecutive Sequence,https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/,Medium,Tree,https://discuss.leetcode.com/topic/104321/short-c-8-lines-dfs-and-12-lines-bfs
+300,Longest Increasing Subsequence,https://leetcode.com/problems/longest-increasing-subsequence/description/,Medium,Binary Search / Dynamic Programming,https://discuss.leetcode.com/topic/106903/short-c-o-n-2-dp-and-o-nlogn-binary-search
+301,Remove Invalid Parentheses,https://leetcode.com/problems/remove-invalid-parentheses/description/,Hard,Backtracking / DFS / BFS,https://discuss.leetcode.com/topic/99881/c-backtrack-easy-to-understand
+303,Range Sum Query - Immutable,https://leetcode.com/problems/range-sum-query-immutable/description/,Easy,Dynamic Programming,https://discuss.leetcode.com/topic/104447/7-lines-c-dp
+304,Range Sum Query 2D - Immutable,https://leetcode.com/problems/range-sum-query-2d-immutable/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/104453/7-lines-c-dp
+305,Number of Islands II,https://leetcode.com/problems/number-of-islands-ii/description/,Hard,Union Find,https://discuss.leetcode.com/topic/107415/clean-c-union-find
+307,Range Sum Query - Mutable,https://leetcode.com/problems/range-sum-query-mutable/description/,Medium,Segment Tree,https://discuss.leetcode.com/topic/104511/c-749ms-brute-force
+309,Best Time to Buy and Sell Stock with Cooldown,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/108594/share-my-6ms-c-dp-solution
+310,Minimum Height Trees,https://leetcode.com/problems/minimum-height-trees/description/,Medium,BFS/ Graph,https://discuss.leetcode.com/topic/100685/c-from-bf-1880ms-to-o-n-35ms-beats-99-with-explanation
+311,Sparse Matrix Multiplication,https://leetcode.com/problems/sparse-matrix-multiplication/description/,Medium,Matrix,https://discuss.leetcode.com/topic/98234/clean-10-lines-c
+313,Super Ugly Number,https://leetcode.com/problems/super-ugly-number/description/,Medium,Dynamic Programming / Math,https://discuss.leetcode.com/topic/102178/clean-9-lines-c
+314,Binary Tree Vertical Order Traversal,https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/,Medium,BFS,https://discuss.leetcode.com/topic/99884/clean-3-ms-bfs-c
+315,Count of Smaller Numbers After Self,https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/,Hard,Divide and Conqur / Binary Search Tree,https://discuss.leetcode.com/topic/107641/c-bst
+317,Shortest Distance from All Buildings,https://leetcode.com/problems/shortest-distance-from-all-buildings/description/,Hard,BFS,https://discuss.leetcode.com/topic/107548/clean-c-bfs
+318,Maximum Product of Word Lengths,https://leetcode.com/problems/maximum-product-of-word-lengths/description/,Medium,Bit Manipulation,https://discuss.leetcode.com/topic/97533/two-clean-solutions-c
+323,Number of Connected Components in an Undirected Graph,https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/,Medium,Graph / Union Find / BFS / DFS,https://discuss.leetcode.com/topic/105915/c-dfs-and-bfs-solution
+325,Maximum Size Subarray Sum Equals k,https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/description/,Medium,Array / Hash Table,https://discuss.leetcode.com/topic/99871/10-lines-c-o-n
+329,Longest Increasing Path in a Matrix,https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/,Hard,DFS / Memorization,https://discuss.leetcode.com/topic/80223/clean-c-29ms-dp-solution-beats-96-39
+331,Verify Preorder Serialization of a Binary Tree,https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/,Medium,Stack,https://discuss.leetcode.com/topic/105906/6ms-c-using-stack
+332,Reconstruct Itinerary,https://leetcode.com/problems/reconstruct-itinerary/description/,Medium,Graph / DFS,https://discuss.leetcode.com/topic/107397/c-min-heap
+334,Increasing Triplet Subsequence,https://leetcode.com/problems/increasing-triplet-subsequence/description/,Medium,Array,https://discuss.leetcode.com/topic/97462/straight-forward-c-o-n-time-o-1-space-with-comments
+336,Palindrome Pairs,https://leetcode.com/problems/palindrome-pairs/description/,Hard,Hash Table / String / Trie,https://discuss.leetcode.com/topic/107615/short-c-trie
+339,Nested List Weight Sum,https://leetcode.com/problems/nested-list-weight-sum/description/,Easy,DFS,https://leetcode.com/problems/nested-list-weight-sum/discuss/121963/Simple-5-lines-C++
+340,Longest Substring with At Most K Distinct Characters,https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/,Hard,Hash Table / String,https://discuss.leetcode.com/topic/104376/easy-8-lines-c-o-n
+341,Flatten Nested List Iterator,https://leetcode.com/problems/flatten-nested-list-iterator/description/,Medium,Stack / Design,https://discuss.leetcode.com/topic/97644/short-c-16ms-using-deque
+344,Reverse String,https://leetcode.com/problems/reverse-string/description/,Easy,String,https://discuss.leetcode.com/topic/77597/simple-c-9ms-solution
+347,Top K Frequent Elements,https://leetcode.com/problems/top-k-frequent-elements/description/,Medium,Hash Table / Heap,https://discuss.leetcode.com/topic/95435/7-lines-c-o-nlogn-solutions-maxheap-minheap
+348,Design Tic-Tac-Toe,https://leetcode.com/problems/design-tic-tac-toe/description/,Medium,Design,https://discuss.leetcode.com/topic/106788/26ms-c-easy-to-understand
+351,Android Unlock Patterns,https://leetcode.com/problems/android-unlock-patterns/description/,Medium,DFS / Dynamic Programming,https://leetcode.com/problems/android-unlock-patterns/discuss/198845/C++-dfs-easy-to-understand
+354,Russian Doll Envelopes,https://leetcode.com/problems/russian-doll-envelopes/description/,Hard,Binary Search / Dynamic Programming,https://leetcode.com/problems/russian-doll-envelopes/discuss/134395/10-lines-C++
+355,Design Twitter,https://leetcode.com/problems/design-twitter/description/,Medium,Hash Table / Design,https://discuss.leetcode.com/topic/82459/simple-11-lines-c-o-n-solution
+360,Sort Transformed Array,https://leetcode.com/problems/sort-transformed-array/description/,Medium,Math / Two Pointers,https://discuss.leetcode.com/topic/107606/short-c-o-n-easy-to-understand
+361,Bomb Enemy,https://leetcode.com/problems/bomb-enemy/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/104340/clean-c-direction-based-solution
+362,Design Hit Counter,https://leetcode.com/problems/design-hit-counter/description/,Medium,Design,https://discuss.leetcode.com/topic/105787/4-lines-c
+364,Nested List Weight Sum II,https://leetcode.com/problems/nested-list-weight-sum-ii/description/,Medium,DFS,https://leetcode.com/problems/nested-list-weight-sum-ii/discuss/121967/10-lines-C++-recursion
+369,Plus One Linked List,https://leetcode.com/problems/plus-one-linked-list/description/,Medium,Linked List,https://discuss.leetcode.com/topic/105864/simple-c-reverse-list-and-add
+373,Find K Pairs with Smallest Sums,https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/,Medium,Heap,https://discuss.leetcode.com/topic/106033/7-lines-c-minheap-and-maxheap
+377,Combination Sum IV,https://leetcode.com/problems/combination-sum-iv/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/100273/c-recursion
+378,Kth Smallest Element in a Sorted Matrix,https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/,Medium,Binary Search / Heap,https://discuss.leetcode.com/topic/105997/5-lines-c-minheap-and-multiset
+382,Linked List Random Node,https://leetcode.com/problems/linked-list-random-node/description/,Medium,Reservoir Sampling,https://discuss.leetcode.com/topic/106031/c-reservoir-sampling
+394,Decode String,https://leetcode.com/problems/decode-string/description/,Medium,String / DFS,https://discuss.leetcode.com/topic/104396/c-0ms-recursion
+398,Random Pick Index,https://leetcode.com/problems/random-pick-index/description/,Medium,Reservoir Sampling,https://discuss.leetcode.com/topic/101489/my-c-solutions
+399,Evaluate Division,https://leetcode.com/problems/evaluate-division/description/,Medium,Graph,https://discuss.leetcode.com/topic/105762/clean-3ms-c-bfs
+402,Remove K Digits,https://leetcode.com/problems/remove-k-digits/description/,Medium,Greedy,https://discuss.leetcode.com/topic/105966/my-c-o-n-solution
+404,Sum of Left Leaves,https://leetcode.com/problems/sum-of-left-leaves/description/,Easy,Tree,https://discuss.leetcode.com/topic/91207/2-lines-c-dfs
+408,Valid Word Abbreviation,https://leetcode.com/problems/valid-word-abbreviation/description/,Easy,String,https://discuss.leetcode.com/topic/108894/short-c-solution
+409,Longest Palindrome,https://leetcode.com/problems/longest-palindrome/description/,Easy,Hash Table,https://discuss.leetcode.com/topic/109840/4-lines-c
+411,Minimum Unique Word Abbreviation,https://leetcode.com/problems/minimum-unique-word-abbreviation/description/,Hard,Backtracking,https://discuss.leetcode.com/topic/108917/c-dfs-solution-not-easy-to-understand
+412,Fizz Buzz,https://leetcode.com/problems/fizz-buzz/description/,Easy,Array,https://discuss.leetcode.com/topic/85930/c-3ms
+416,Partition Equal Subset Sum,https://leetcode.com/problems/partition-equal-subset-sum/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/108717/9-lines-c-dp
+417,Pacific Atlantic Water Flow,https://leetcode.com/problems/pacific-atlantic-water-flow/description/,Medium,DFS / BFS,https://discuss.leetcode.com/topic/105705/c-dfs-easy-to-understand
+433,Minimum Genetic Mutation,https://leetcode.com/problems/minimum-genetic-mutation/description/,Medium,BFS,https://discuss.leetcode.com/topic/101984/clean-c-bfs-same-as-word-ladder
+435,Non-overlapping Intervals,https://leetcode.com/problems/non-overlapping-intervals/description/,Medium,Greedy,https://leetcode.com/problems/non-overlapping-intervals/discuss/116085/11-lines-C++
+436,Find Right Interval,https://leetcode.com/problems/find-right-interval/description/,Medium,Array / Binary Search,https://leetcode.com/problems/find-right-interval/discuss/116073/8-lines-C++
+438,Find All Anagrams in a String,https://leetcode.com/problems/find-all-anagrams-in-a-string/description/,Easy,Hash Table,https://discuss.leetcode.com/topic/111121/12-lines-c-o-n-solution
+441,Arranging Coins,https://leetcode.com/problems/arranging-coins/description/,Easy,Math,https://discuss.leetcode.com/topic/92001/3-lines-c-easy-to-understand
+444,Sequence Reconstruction,https://leetcode.com/problems/sequence-reconstruction/description/,Medium,Graph / Topological Sort,https://discuss.leetcode.com/topic/108886/short-c-topological-sort-solution-easy-to-understand
+450,Delete Node in a BST,https://leetcode.com/problems/delete-node-in-a-bst/description/,Medium,Tree,https://leetcode.com/problems/delete-node-in-a-bst/discuss/137641/10-lines-C++
+451,Sort Characters By Frequency,https://leetcode.com/problems/sort-characters-by-frequency/description/,Medium,Hash Table / Heap,https://discuss.leetcode.com/topic/106967/c-o-nlogn-hash-table-priority_queue
+461,Hamming Distance,https://leetcode.com/problems/hamming-distance/description/,Easy,Bit Manipulation,https://discuss.leetcode.com/topic/85931/4-lines-c-3ms
+467,Unique Substrings in Wraparound String,https://leetcode.com/problems/unique-substrings-in-wraparound-string/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/104587/9-lines-c
+473,Matchsticks to Square,https://leetcode.com/problems/matchsticks-to-square/description/,Medium,DFS,https://discuss.leetcode.com/topic/119716/c-17ms-dfs-solution
+477,Total Hamming Distance,https://leetcode.com/problems/total-hamming-distance/description/,Medium,Bit Manipulation,https://discuss.leetcode.com/topic/100420/7-lines-c-o-n
+482,License Key Formatting,https://leetcode.com/problems/license-key-formatting/description/,Medium,Array,https://discuss.leetcode.com/topic/104317/9ms-straight-forward-c
+484,Find Permutation,https://leetcode.com/problems/find-permutation/description/,Medium,Greedy,https://discuss.leetcode.com/topic/105887/9-lines-c
+486,Predict the Winner,https://leetcode.com/problems/predict-the-winner/description/,Medium,Dynamic Programming / Minimax,https://leetcode.com/problems/predict-the-winner/discuss/197984/C++-0ms-minimax
+487,Max Consecutive Ones II,https://leetcode.com/problems/max-consecutive-ones-ii/description/,Medium,Two Pointers,https://leetcode.com/problems/max-consecutive-ones-ii/discuss/122406/7-lines-C++-two-pointers
+489,Robot Room Cleaner,https://leetcode.com/problems/robot-room-cleaner/description/,Hard,DFS,https://leetcode.com/problems/robot-room-cleaner/discuss/199348/C++-dfs-easy-to-understand
+494,Target Sum,https://leetcode.com/problems/target-sum/description/,Medium,Backtracking,https://discuss.leetcode.com/topic/100319/clean-c-backtrack-dp
+496,Next Greater Element I,https://leetcode.com/problems/next-greater-element-i/description/,Easy,Stack,https://discuss.leetcode.com/topic/91234/c-o-n-time-o-1-space
+498,Diagonal Traverse,https://leetcode.com/problems/diagonal-traverse/description/,Medium,Matrix,https://discuss.leetcode.com/topic/105869/clean-c-recursion
+503,Next Greater Element II,https://leetcode.com/problems/next-greater-element-ii/description/,Medium,Stack,https://discuss.leetcode.com/topic/105963/c-from-o-n-2-to-o-n
+505,The Maze II,https://leetcode.com/problems/the-maze-ii/description/,Medium,DFS / BFS,https://discuss.leetcode.com/topic/104907/c-dfs-direction-based-solution
+508,Most Frequent Subtree Sum,https://leetcode.com/problems/most-frequent-subtree-sum/description/,Medium,Tree / Hash Table,https://discuss.leetcode.com/topic/109583/concise-c-13ms-o-n-solution
+513,Find Bottom Left Tree Value,https://leetcode.com/problems/find-bottom-left-tree-value/description/,Medium,Tree / BFS / DFS,https://discuss.leetcode.com/topic/109496/8-lines-c-dfs-solution
+515,Find Largest Value in Each Tree Row,https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/,Medium,Tree / BFS / DFS,https://discuss.leetcode.com/topic/109495/c-bfs-and-dfs-solutions
+523,Continuous Subarray Sum,https://leetcode.com/problems/continuous-subarray-sum/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/101395/share-my-not-too-long-c-solution
+524,Longest Word in Dictionary through Deleting,https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/,Medium,Two Pointers,https://discuss.leetcode.com/topic/105780/simple-c-move-pointers-beats-90
+525,Contiguous Array,https://leetcode.com/problems/contiguous-array/description/,Medium,Hash Table,https://discuss.leetcode.com/topic/100412/10-lines-c
+531,Lonely Pixel I,https://leetcode.com/problems/lonely-pixel-i/description/,Medium,Array / DFS,https://discuss.leetcode.com/topic/107379/simple-c-56ms-99-62
+535,Encode and Decode TinyURL,https://leetcode.com/problems/encode-and-decode-tinyurl/description/,Medium,String,https://discuss.leetcode.com/topic/101377/short-c
+536,Construct Binary Tree from String,https://leetcode.com/problems/construct-binary-tree-from-string/description/,Medium,String / Tree,https://discuss.leetcode.com/topic/104659/short-c-recursive
+538,Convert BST to Greater Tree,https://leetcode.com/problems/convert-bst-to-greater-tree/description/,Easy,DFS,https://discuss.leetcode.com/topic/100522/7-lines-c-dfs
+540,Single Element in a Sorted Array,https://leetcode.com/problems/single-element-in-a-sorted-array/description/,Medium,Array / Binary Search,https://discuss.leetcode.com/topic/100529/c-9-lines-binary-seach
+541,Reverse String II,https://leetcode.com/problems/reverse-string-ii/description/,Easy,String,https://leetcode.com/problems/reverse-string-ii/discuss/129632/4-lines-C++
+542,01 Matrix,https://leetcode.com/problems/01-matrix/description/,Medium,BFS / DFS,https://discuss.leetcode.com/topic/105984/c-bfs
+543,Diameter of Binary Tree,https://leetcode.com/problems/diameter-of-binary-tree/description/,Easy,Tree,https://discuss.leetcode.com/topic/94276/c-6-lines-dfs
+547,Friend Circles,https://leetcode.com/problems/friend-circles/description/,Medium,DFS / Union Find,https://discuss.leetcode.com/topic/100552/c-26ms-dfs-easy-to-understand
+549,Binary Tree Longest Consecutive Sequence II,https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/description/,Medium,Tree,https://discuss.leetcode.com/topic/107340/13-lines-c-post-order-traversal
+554,Brick Wall,https://leetcode.com/problems/brick-wall/description/,Medium,Hash Table,https://discuss.leetcode.com/topic/100401/c-hash-table-easy-to-understand
+560,Subarray Sum Equals K,https://leetcode.com/problems/subarray-sum-equals-k/description/,Medium,Array / Map,https://discuss.leetcode.com/topic/100697/simple-9-lines-c
+562,Longest Line of Consecutive One in Matrix,https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/description/,Medium,Array,https://discuss.leetcode.com/topic/106782/share-my-12-lines-c
+565,Array Nesting,https://leetcode.com/problems/array-nesting/description/,Medium,Array,https://discuss.leetcode.com/topic/100545/c-29ms-dfs-o-n
+566,Reshape the Matrix,https://leetcode.com/problems/reshape-the-matrix/description/,Easy,Array,https://discuss.leetcode.com/topic/92281/c-easy-to-understand-beats-90-72
+567,Permutation in String,https://leetcode.com/problems/permutation-in-string/description/,Medium,Two Pointers,https://leetcode.com/problems/permutation-in-string/discuss/133527/12-lines-C++
+572,Subtree of Another Tree,https://leetcode.com/problems/subtree-of-another-tree/description/,Easy,Tree,https://discuss.leetcode.com/topic/101381/6-lines-c-dfs
+582,Kill Process,https://leetcode.com/problems/kill-process/description/,Medium,Tree / BFS / DFS,https://discuss.leetcode.com/topic/109587/c-bfs-and-dfs-solutions
+583,Delete Operation for Two Strings,https://leetcode.com/problems/delete-operation-for-two-strings/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/101563/c-6-lines-dp
+606,Construct String from Binary Tree,https://leetcode.com/problems/construct-string-from-binary-tree/description/,Easy,Tree / String,https://discuss.leetcode.com/topic/93023/6-lines-c-recursion
+611,Valid Triangle Number,https://leetcode.com/problems/valid-triangle-number/description/,Medium,Array,https://leetcode.com/problems/valid-triangle-number/discuss/122396/7-lines-C++-brute-force
+621,Task Scheduler,https://leetcode.com/problems/task-scheduler/description/,Medium,Array / Queue,https://discuss.leetcode.com/topic/100438/c-priority_queue
+632,Smallest Range,https://leetcode.com/problems/smallest-range/description/,Hard,Two Pointers,https://discuss.leetcode.com/topic/108083/c-min-heap
+633,Sum of Square Numbers,https://leetcode.com/problems/sum-of-square-numbers/description/,Easy,Math,https://discuss.leetcode.com/topic/112742/3-lines-c-o-sqrt-n-solution
+635,Design Log Storage System,https://leetcode.com/problems/design-log-storage-system/description/,Medium,String / Design,https://leetcode.com/problems/design-log-storage-system/discuss/137402/12-lines-C++
+636,Exclusive Time of Functions,https://leetcode.com/problems/exclusive-time-of-functions/description/,Medium,Stack,https://discuss.leetcode.com/topic/104296/clear-c-stack-easy-to-understand
+637,Average of Levels in Binary Tree,https://leetcode.com/problems/average-of-levels-in-binary-tree/description/,Easy,BFS,https://discuss.leetcode.com/topic/100446/c-typical-bfs
+639,Decode Ways II,https://leetcode.com/problems/decode-ways-ii/description/,Hard,Dynamic Programming,https://discuss.leetcode.com/topic/103455/c-59ms-ac-solution-feel-the-power-of-if-else
+642,Design Search Autocomplete System,https://leetcode.com/problems/design-search-autocomplete-system/description/,Hard,Design / Trie,https://leetcode.com/problems/design-search-autocomplete-system/discuss/133933/C++-Trie-and-priority_queue
+643,Maximum Average Subarray I,https://leetcode.com/problems/maximum-average-subarray-i/description/,Easy,Array,https://discuss.leetcode.com/topic/109366/simple-c-o-n-solution
+647,Palindromic Substrings,https://leetcode.com/problems/palindromic-substrings/description/,Medium,String,https://discuss.leetcode.com/topic/101542/8-lines-c-bf
+648,Replace Words,https://leetcode.com/problems/replace-words/description/,Medium,Hash Table / Trie,https://discuss.leetcode.com/topic/119431/14-lines-c-with-hash-table
+652,Find Duplicate Subtrees,https://leetcode.com/problems/find-duplicate-subtrees/description/,Medium,Tree,https://discuss.leetcode.com/topic/107155/8-lines-c
+653,Two Sum IV - Input is a BST,https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/,Easy,DFS,https://discuss.leetcode.com/topic/100517/6-lines-c
+654,Maximum Binary Tree,https://leetcode.com/problems/maximum-binary-tree/description/,Medium,Tree,https://discuss.leetcode.com/topic/107709/8-lines-c-recursion
+657,Judge Route Circle,https://leetcode.com/problems/judge-route-circle/description/,Easy,String,https://discuss.leetcode.com/topic/106049/6-lines-c
+658,Find K Closest Elements,https://leetcode.com/problems/find-k-closest-elements/description/,Medium,Binary Search,https://discuss.leetcode.com/topic/106983/7-lines-c
+659,Split Array into Consecutive Subsequences,https://leetcode.com/problems/split-array-into-consecutive-subsequences/description/,Medium,Greedy,https://discuss.leetcode.com/topic/99187/java-o-n-time-o-n-space/27
+662,Maximum Width of Binary Tree,https://leetcode.com/problems/maximum-width-of-binary-tree/description/,Medium,Tree / BFS / DFS,https://discuss.leetcode.com/topic/109399/3ms-c-bfs-dfs-solutions
+663,Equal Tree Partition,https://leetcode.com/problems/equal-tree-partition/description/,Medium,Tree,https://discuss.leetcode.com/topic/109374/c-19ms-o-n-solution-beats-100
+669,Trim a Binary Search Tree,https://leetcode.com/problems/trim-a-binary-search-tree/description/,Easy,Tree,https://discuss.leetcode.com/topic/107716/5-lines-c
+670,Maximum Swap,https://leetcode.com/problems/maximum-swap/description/,Medium,Array / Math,https://discuss.leetcode.com/topic/102845/c-bf-easy-to-understand
+671,Second Minimum Node In a Binary Tree,https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/,Easy,Tree,https://discuss.leetcode.com/topic/109491/6-lines-c-dfs
+673,Number of Longest Increasing Subsequence,https://leetcode.com/problems/number-of-longest-increasing-subsequence/description/,Medium,Dynamic Programming,https://discuss.leetcode.com/topic/104291/c-backtracking-got-tle
+674,Longest Continuous Increasing Subsequence,https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/,Easy,Array,https://discuss.leetcode.com/topic/104218/8-lines-c-two-pointers-easy-to-understand
+676,Implement Magic Dictionary,https://leetcode.com/problems/implement-magic-dictionary/description/,Medium,Hash Table / Trie,https://discuss.leetcode.com/topic/107072/two-c-solutions-hash-table-trie
+677,Map Sum Pairs,https://leetcode.com/problems/map-sum-pairs/description/,Medium,Trie,https://leetcode.com/problems/map-sum-pairs/discuss/115244/C++-Trie-+-unordered_map
+679,24 Game,https://leetcode.com/problems/24-game/description/,Hard,DFS,https://leetcode.com/problems/24-game/discuss/198773/C++-dfs-easy-to-understand
+680,Valid Palindrome II,https://leetcode.com/problems/valid-palindrome-ii/description/,Easy,String,https://discuss.leetcode.com/topic/104217/6-lines-c-o-n
+681,Next Closest Time,https://leetcode.com/problems/next-closest-time/description/,Medium,String,https://discuss.leetcode.com/topic/105685/3ms-c-dfs
+683,K Empty Slots,https://leetcode.com/problems/k-empty-slots/description/,Hard,Array / Binary Search,https://discuss.leetcode.com/topic/105690/c-binary-search-o-nlogn-easy-to-understand
+684,Redundant Connection,https://leetcode.com/problems/redundant-connection/description/,Medium,Graph / Union Find,https://discuss.leetcode.com/topic/109834/13ms-c-union-find
+685,Redundant Connection II,https://leetcode.com/problems/redundant-connection-ii/description/,Hard,Graph / DFS / Union Find,https://leetcode.com/problems/redundant-connection-ii/description/
+686,Repeated String Match,https://leetcode.com/problems/repeated-string-match/description/,Easy,String,https://discuss.leetcode.com/topic/106037/3ms-c-o-n-solution
+687,Longest Univalue Path,https://leetcode.com/problems/longest-univalue-path/description/,Easy,Tree / DFS,https://discuss.leetcode.com/topic/106043/simple-c-dfs
+689,Maximum Sum of 3 Non-Overlapping Subarrays,https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/,Hard,Array / Dynamic Programming,https://discuss.leetcode.com/topic/109486/concise-c-dp-solution-with-comments
+690,Employee Importance,https://leetcode.com/problems/employee-importance/description/,Easy,Hash Table / BFS / DFS,https://discuss.leetcode.com/topic/109269/c-12-lines-bfs-and-7-lines-dfs
+692,Top K Frequent Words,https://leetcode.com/problems/top-k-frequent-words/description/,Medium,Hash Table / Heap,https://discuss.leetcode.com/topic/108091/12-lines-c-min-heap-o-nlogk-solution
+693,Binary Number with Alternating Bits,https://leetcode.com/problems/binary-number-with-alternating-bits/description/,Easy,Bit Manipulation,https://discuss.leetcode.com/topic/109248/4-lines-c-easy-to-understand
+695,Max Area of Island,https://leetcode.com/problems/max-area-of-island/description/,Easy,Array / DFS,https://discuss.leetcode.com/topic/108087/clean-c-dfs
+696,Count Binary Substrings,https://leetcode.com/problems/count-binary-substrings/description/,Easy,String,https://discuss.leetcode.com/topic/108103/9-lines-c-easy-to-understand
+697,Degree of an Array,https://leetcode.com/problems/degree-of-an-array/description/,Easy,Array,https://discuss.leetcode.com/topic/108702/11-lines-c-o-n-easy-to-understand
+713,Subarray Product Less Than K,https://leetcode.com/problems/subarray-product-less-than-k/description/,Medium,Array,https://discuss.leetcode.com/topic/108700/7-lines-c
+717,1-bit and 2-bit Characters,https://leetcode.com/problems/1-bit-and-2-bit-characters/description/,Easy,Array,https://discuss.leetcode.com/topic/109261/simple-3-lines-c
+718,Maximum Length of Repeated Subarray,https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/,Medium,Array / Dynamic Programming,https://discuss.leetcode.com/topic/109413/clean-c-dp-solution
+720,Longest Word in Dictionary,https://leetcode.com/problems/longest-word-in-dictionary/description/,Easy,Hash Table / Trie,https://discuss.leetcode.com/topic/110523/9-lines-c
+723,Candy Crush,https://leetcode.com/problems/candy-crush/description/,Medium,Array / Two Pointers,https://leetcode.com/problems/candy-crush/discuss/200286/C++-easy-to-understand
+724,Find Pivot Index,https://leetcode.com/problems/find-pivot-index/description/,Easy,Array,https://discuss.leetcode.com/topic/112117/5-lines-c
+725,Split Linked List in Parts,https://leetcode.com/problems/split-linked-list-in-parts/description/,Medium,Linked List,https://discuss.leetcode.com/topic/110532/9ms-c-solution
+728,Self Dividing Numbers,https://leetcode.com/problems/self-dividing-numbers/description/,Easy,Math,https://discuss.leetcode.com/topic/112665/10-lines-c-easy-to-understand
+729,My Calendar I,https://leetcode.com/problems/my-calendar-i/description/,Medium,Array,https://discuss.leetcode.com/topic/112620/5-lines-c-easy-to-understand
+733,Flood Fill,https://leetcode.com/problems/flood-fill/description/,Easy,DFS,https://discuss.leetcode.com/topic/112595/9-lines-c-dfs-solution
+734,Sentence Similarity,https://leetcode.com/problems/sentence-similarity/description/,Easy,Hash Table,https://discuss.leetcode.com/topic/112260/9-lines-c-solution
+735,Asteroid Collision,https://leetcode.com/problems/asteroid-collision/description/,Medium,Stack,https://discuss.leetcode.com/topic/112590/9-lines-c-solution
+739,Daily Temperatures,https://leetcode.com/problems/daily-temperatures/description/,Medium,Stack / Hash Table,https://discuss.leetcode.com/topic/118570/c-11-lines-o-n-time-space-solution
+740,Delete and Earn,https://leetcode.com/problems/delete-and-earn/description/,Medium,Dynamic Programming,https://leetcode.com/problems/delete-and-earn/discuss/123634/C++-9ms-DP-solution
+742,Closest Leaf in a Binary Tree,https://leetcode.com/problems/closest-leaf-in-a-binary-tree/discuss/,Medium,Tree / Graph,https://discuss.leetcode.com/topic/120405/share-my-c-bfs-solution
+746,Min Cost Climbing Stairs,https://leetcode.com/problems/min-cost-climbing-stairs/description/,Easy,Array / Dynamic Programming,https://discuss.leetcode.com/topic/118024/4-lines-c-o-1-space-dp-solution
+747,Largest Number At Least Twice of Others,https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/,Easy,Array,https://discuss.leetcode.com/topic/118468/c-o-n-time-o-1-space-one-pass-solution
+758,Bold Words in String,https://leetcode.com/problems/bold-words-in-string/description/,Easy,String,https://leetcode.com/problems/bold-words-in-string/discuss/122324/7ms-C++-solution
+760,Find Anagram Mappings,https://leetcode.com/problems/find-anagram-mappings/description/,Easy,Hash Table,https://discuss.leetcode.com/topic/118029/short-c
+766,Toeplitz Matrix,https://leetcode.com/problems/toeplitz-matrix/description/,Easy,Array,https://discuss.leetcode.com/topic/118466/4-lines-c
+769,Max Chunks To Make Sorted,https://leetcode.com/problems/max-chunks-to-make-sorted/description/,Medium,Array,https://leetcode.com/problems/max-chunks-to-make-sorted/discuss/115174/Simple-6-lines-C++-solution-with-brief-explanation
+771,Jewels and Stones,https://leetcode.com/problems/jewels-and-stones/description/,Easy,Hash Table,https://discuss.leetcode.com/topic/119330/5-lines-c
+777,Swap Adjacent in LR String,https://leetcode.com/problems/swap-adjacent-in-lr-string/description/,Medium,Brainteaser,https://leetcode.com/problems/swap-adjacent-in-lr-string/discuss/199945/C++-easy-to-understand
+783,Minimum Distance Between BST Nodes,https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/,Easy,Tree,https://discuss.leetcode.com/topic/120414/c-in-order-traversal-recursive-non-recursive
+784,Letter Case Permutation,https://leetcode.com/problems/letter-case-permutation/description/,Easy,String,https://leetcode.com/problems/letter-case-permutation/discuss/115804/Simple-C++-DFS-solution
+785,Is Graph Bipartite,https://leetcode.com/problems/is-graph-bipartite/description/,Medium,Graph,https://leetcode.com/problems/is-graph-bipartite/discuss/115943/12-lines-C++-solution
+787,Cheapest Flights Within K Stops,https://leetcode.com/problems/cheapest-flights-within-k-stops/description/,Medium,Graph / Heap,https://leetcode.com/problems/cheapest-flights-within-k-stops/discuss/115853/11-lines-C++-DFS-solution
+791,Custom Sort String,https://leetcode.com/problems/all-paths-from-source-to-target/description/,Medium,String,https://leetcode.com/problems/custom-sort-string/discuss/121132/8-lines-C++-bucket-sort
+797,All Paths From Source to Target,https://leetcode.com/problems/all-paths-from-source-to-target/description/,Medium,DFS / Graph,https://leetcode.com/problems/all-paths-from-source-to-target/discuss/121135/6-lines-C++-dfs
+798,Smallest Rotation with Highest Score,https://leetcode.com/problems/smallest-rotation-with-highest-score/description/,Hard,Array,https://leetcode.com/problems/smallest-rotation-with-highest-score/discuss/121296/7-lines-C++-solution
+799,Champagne Tower,https://leetcode.com/problems/champagne-tower/description/,Medium,Array,https://leetcode.com/problems/champagne-tower/discuss/121392/14ms-C++-solution
+802,Find Eventual Safe States,https://leetcode.com/problems/find-eventual-safe-states/description/,Medium,DFS / Graph,https://leetcode.com/problems/find-eventual-safe-states/discuss/121012/14-lines-C++-dfs
+803,Bricks Falling When Hit,https://leetcode.com/problems/bricks-falling-when-hit/description/,Hard,Union Find,https://leetcode.com/problems/bricks-falling-when-hit/discuss/200303/C++-dfs-easy-to-understand
+804,Unique Morse Code Words,https://leetcode.com/problems/unique-morse-code-words/description/,Easy,String,https://leetcode.com/problems/unique-morse-code-words/discuss/121018/8-lines-C++
+806,Number of Lines To Write String,https://leetcode.com/problems/number-of-lines-to-write-string/description/,Easy,String,https://leetcode.com/problems/number-of-lines-to-write-string/discuss/121016/6-lines-C++
+807,Max Increase to Keep City Skyline,https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/,Medium,Array,https://leetcode.com/problems/max-increase-to-keep-city-skyline/discuss/121014/13-lines-C++
+809,Expressive Words,https://leetcode.com/problems/expressive-words/description/,Medium,String,https://leetcode.com/problems/expressive-words/discuss/121990/9ms-C++-intuitive-solution
+814,Binary Tree Pruning,https://leetcode.com/problems/binary-tree-pruning/description/,Medium,Tree,https://leetcode.com/problems/binary-tree-pruning/discuss/133234/4-lines-C++
+815,Bus Routes,https://leetcode.com/problems/bus-routes/description/,Hard,BFS,https://leetcode.com/problems/bus-routes/discuss/193976/C++-BFS-easy-to-understand
+819,Most Common Word,https://leetcode.com/problems/most-common-word/description/,Easy,String,https://leetcode.com/problems/most-common-word/discuss/124286/Clean-6ms-C++-solution
+820,Short Encoding of Words,https://leetcode.com/problems/short-encoding-of-words/description/,Medium,Trie,https://leetcode.com/problems/short-encoding-of-words/discuss/133642/C++-Trie-solution-easy-to-understand
+826,Most Profit Assigning Work,https://leetcode.com/problems/most-profit-assigning-work/description/,Medium,Two Pointers / Binary Search,https://leetcode.com/problems/most-profit-assigning-work/discuss/129241/C++-Sort-+-Binary-Search
+830,Positions of Large Groups,https://leetcode.com/problems/positions-of-large-groups/description/,Easy,Array,https://leetcode.com/problems/positions-of-large-groups/discuss/129224/8-lines-C++
+832,Flipping an Image,https://leetcode.com/problems/flipping-an-image/description/,Easy,Array,https://leetcode.com/problems/flipping-an-image/discuss/131395/5-lines-C++
+836,Rectangle Overlap,https://leetcode.com/problems/rectangle-overlap/description/,Easy,Math,https://leetcode.com/problems/rectangle-overlap/discuss/133237/Share-my-1-line-C++
+841,Keys and Rooms,https://leetcode.com/problems/keys-and-rooms/description/,Medium,DFS / BFS / Graph,https://leetcode.com/problems/keys-and-rooms/discuss/134410/Short-C++-DFS-and-BFS-solutions
+845,Longest Mountain in Array,https://leetcode.com/problems/longest-mountain-in-array/description/,Medium,Two Pointers,https://leetcode.com/problems/longest-mountain-in-array/discuss/136816/12-lines-C++-two-pointers
+846,Hand of Straights,https://leetcode.com/problems/hand-of-straights/description/,Medium,Map,https://leetcode.com/problems/hand-of-straights/discuss/137090/C++-map-solution
+849,Maximize Distance to Closest Person,https://leetcode.com/problems/maximize-distance-to-closest-person/description/,Easy,Array,https://leetcode.com/problems/maximize-distance-to-closest-person/discuss/138550/3-lines-C++-one-pass
+859,Buddy Strings,https://leetcode.com/problems/buddy-strings/description/,Easy,String,https://leetcode.com/problems/buddy-strings/discuss/142512/13-lines-C++
+872,Leaf-Similar Trees,https://leetcode.com/problems/leaf-similar-trees/description/,Easy,Tree / DFS,https://leetcode.com/problems/leaf-similar-trees/discuss/155163/11-lines-C++
+884,Uncommon Words from Two Sentences,https://leetcode.com/problems/uncommon-words-from-two-sentences/description/,Easy,Hash Table,https://leetcode.com/problems/uncommon-words-from-two-sentences/discuss/166163/7-lines-C++
+888,Fair Candy Swap,https://leetcode.com/problems/fair-candy-swap/description/,Easy,Array,https://leetcode.com/problems/fair-candy-swap/discuss/166160/6-lines-C++
+890,Find and Replace Pattern,https://leetcode.com/problems/find-and-replace-pattern/description/,Medium,String,https://leetcode.com/problems/find-and-replace-pattern/discuss/199645/Two-C++-solutions
+896,Monotonic Array,https://leetcode.com/problems/monotonic-array/description/,Easy,Array,https://leetcode.com/problems/monotonic-array/discuss/166156/Short-C++-one-pass
+925,Long Pressed Name,https://leetcode.com/problems/long-pressed-name/description/,Easy,String,https://leetcode.com/problems/long-pressed-name/discuss/194718/5-lines-C++
+935,Knight Dialer,https://leetcode.com/problems/knight-dialer/description/,Medium,Dynamic Programming,https://leetcode.com/problems/knight-dialer/discuss/192515/Super-easy-to-understand-C++-DP-solution
+938,Range Sum of BST,https://leetcode.com/problems/range-sum-of-bst/description/,Medium,Tree,https://leetcode.com/problems/range-sum-of-bst/discuss/220732/C++-1-line
+951,Flip Equivalent Binary Trees,https://leetcode.com/problems/flip-equivalent-binary-trees/description/,Medium,Tree,https://leetcode.com/problems/flip-equivalent-binary-trees/discuss/220723/Clean-C++-DFS

@@ -1,0 +1,176 @@
+Question No.,Name,Title Link,Basic Idea
+1,Two Sum,https://leetcode.com/problems/two-sum/,1. Hash O(n) and O(n) space.<br>2. Sort and search with two points O(n) and O(1) space.
+2,Add Two Numbers,https://leetcode.com/problems/add-two-numbers/,Take care of the carry from lower digit.
+8,String to Integer (atoi),https://leetcode.com/problems/string-to-integer-atoi/,"Overflow, Space, and negative number"
+9,Palindrome Number,https://leetcode.com/problems/palindrome-number/,"Get the len and check left and right with 10^len, 10"
+11,Container With Most Water,https://leetcode.com/problems/container-with-most-water/,"1. Brute Force, O(n^2) and O(1)<br>2. Two points, O(n) and O(1) "
+12,Integer to Roman,https://leetcode.com/problems/integer-to-roman/,"[Background knowledge](http://www.rapidtables.com/convert/number/how-number-to-roman-numerals.htm) Just like 10-digit number, divide and minus"
+13,Roman to Integer,https://leetcode.com/problems/roman-to-integer/,"Add all curr, if curr > prev, then need to subtract 2 * prev"
+15,3Sum,https://leetcode.com/problems/3sum/,1. Sort and O(n^2) search with three points <br>2. Multiple Two Sum (Problem 1)
+18,4Sum,https://leetcode.com/problems/4sum/,"The same as 3Sum, but we can merge pairs with the same sum"
+19,Remove Nth Node From End of List,https://leetcode.com/problems/remove-nth-node-from-end-of-list/,"1. Go through list and get length, then remove length-n, O(n) and O(n)<br>2. Two pointers, first pointer goes to n position, then move both pointers until reach tail, O(n) and O(n)"
+20,Valid Parentheses,https://leetcode.com/problems/valid-parentheses/,"1. Stack<br>2. Replace all parentheses with '', if empty then True"
+21,Merge Two Sorted Lists,https://leetcode.com/problems/merge-two-sorted-lists/,"Add a dummy head, then merge two sorted list in O(m+n)"
+23,Merge k Sorted Lists,https://leetcode.com/problems/merge-k-sorted-lists/,1. Priority queue O(nk log k)<br>2. Binary merge O(nk log k)| 
+24,Swap Nodes in Pairs,https://leetcode.com/problems/swap-nodes-in-pairs/,Add a dummy and store the prev
+28,Implement strStr(),https://leetcode.com/problems/implement-strstr/,1. O(nm) comparison <br>2. KMP
+35,Search Insert Position,https://leetcode.com/problems/search-insert-position/,Binary Search
+46,Permutations,https://leetcode.com/problems/permutations/,"1. Python itertools.permutations<br>2. DFS with swapping, O(n^2) and O(n^2)<br>3. iteratively generate n-permutations with (n-1)-permutations, O(n^3) and O(n^2)"
+47,Permutations II,https://leetcode.com/problems/permutations-ii/,"1. DFS with swapping, check duplicate, O(n^2) and O(n^2)<br>2. iteratively generate n-permutations with (n-1)-permutations, O(n^3) and O(n^2)"
+53,Maximum Subarray,https://leetcode.com/problems/maximum-subarray/,"1. Recursion, O(nlgn), O(lgn)<br> 2. Bottom-up DP, O(n) and O(n)<br>3. Bottom-up DP, f(x) = max(f(x-1)+A[x], A[x]), f(x) = max(f(x-1)+A[x], A[x]),O(n) and O(1)"
+54,Spiral Matrix,https://leetcode.com/problems/spiral-matrix/,"O(nm) 1. Turn in the corner and loop<br>2. (0, 1) -> (1, 0) -> (0, -1) -> (-1, 0)"
+62,Unique Paths,https://leetcode.com/problems/unique-paths/,"1. Bottom-up DP, dp[i][j] = dmap[i-1][j] + dmap[i][j-1], O(mn) and O(mn)<br>2. Combination (m+n-2, m-1)"
+63,Unique Paths II,https://leetcode.com/problems/unique-paths-ii/,"Bottom-up DP, dp[i][j] = dmap[i-1][j] + dmap[i][j-1] (if block, then 0), O(mn) and O(mn)"
+65,Valid Number,https://leetcode.com/problems/valid-number/,"1. strip leading and tailing space, then check float using exception, check e using split <br>2. check is number split by . or e, note that number after e may be negative"
+66,Plus One,https://leetcode.com/problems/plus-one/,Check if current digit == 9.
+70,Climbing Stairs,https://leetcode.com/problems/climbing-stairs/,"Bottom-up DP, dp[i] = dp[i - 2] + dp[i- 1] <br>1. O(n) and O(n)<br>2. Only two variables are needed, O(n) and O(1)"
+72,Edit Distance,https://leetcode.com/problems/edit-distance/,[Background](https://en.wikipedia.org/wiki/Edit_distance)<br> 1. DP O(n^2) space<br>2. DP O(n) space
+90,Subsets II,https://leetcode.com/problems/subsets-ii/,"1. DFS Recursion with duplicate check, O(2^n) and O(2^n)<br>2. Recursion on a binary number, O(2^n) and O(2^n)<br>3. Sort and iteratively generate n subset with n-1 subset, note that if nums[index] == nums[index - 1] then generate from last end to curr end, O(n^2) and O(2^n)"
+94,Binary Tree Inorder Traversal,https://leetcode.com/problems/binary-tree-inorder-traversal/,"1. Recursion, O(n) and O(1)<br>2. Stack and check isinstance(curr, TreeNode), O(n) and O(n)<br>3. Stack and check left and right, O(n) and O(n)"
+98,Validate Binary Search Tree,https://leetcode.com/problems/validate-binary-search-tree/,1. Stack O(n) and O(n)<br>2. Recursion O(n) and O(n)
+109,Convert Sorted List to Binary Search Tree,https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/,1. Two points fast (next next) and slow (next) O(nlgn) and O(n)<br>2. Bottom-up recursion O(n) and O(lgn)
+110,Balanced Binary Tree,https://leetcode.com/problems/balanced-binary-tree/,"Recursion 1. Top-down O(n^2) and O(n), Bottom-up recursion with sentinel -1 O(n) and O(n)"
+111,Minimum Depth of Binary Tree,https://leetcode.com/problems/minimum-depth-of-binary-tree/,"1. Recursion, note that when size of left (ld) or right (rd) is 0, then min = 1 + ld + rd<br> 2. BFS check by level (right most), which is much faster than recursion"
+124,Binary Tree Maximum Path Sum,https://leetcode.com/problems/binary-tree-maximum-path-sum/,"Recursion O(n) and O(n), max (left + node, right + node, left + node + right)"
+128,Longest Consecutive Sequence,https://leetcode.com/problems/longest-consecutive-sequence/,"Set or hash, pop adjacency, O(n) and O(n)"
+133,Clone Graph,https://leetcode.com/problems/clone-graph/,Hash and DFS or BFS
+136,Single Number,https://leetcode.com/problems/single-number/,"1. Hash or set, O(n) and O(n)<br>2. xor O(n) and O(1)"
+137,Single Number II,https://leetcode.com/problems/single-number-ii/,"1. ctypes 32 % 3 and &, O(n) and O(1)<br>2. ones, twos, threes as bitmask (e.g. ones represents ith bit had appeared once), O(n) and O(1)"
+138,Copy List with Random Pointer,https://leetcode.com/problems/copy-list-with-random-pointer/,"1. Hash O(n) and O(n)<br>2.  Modify original structure: Original->Copy->Original, then node.next.random = node.random.next, O(n) and O(1)"
+141,Linked List Cycle,https://leetcode.com/problems/linked-list-cycle/,1. Hash or set<br> 2. Two points (fast and slow)<br>3. Add a max and check if reach the max
+142,Linked List Cycle II,https://discuss.leetcode.com/topic/2975/o-n-solution-by-using-two-pointers-without-change-anything,"Two points, a+b=nr"
+143,Reorder List,https://leetcode.com/problems/reorder-list/,"1. List as index to rebuild relation, O(n) and O(n)<br>2. Two points, O(n) and O(1)"
+144,Binary Tree Preorder Traversal,https://leetcode.com/problems/binary-tree-preorder-traversal/,"1. Recursion, O(n) and O(n)<br>2. Stack, O(n) and O(n)"
+145,Binary Tree Postorder Traversal,https://leetcode.com/problems/binary-tree-postorder-traversal/,"1. Recursion, O(n) and O(n)<br>2. Stack and queue (insert 0), O(n) and O(n)<br>3. Stack and isinstance(curr, TreeNode), O(n) and O(n)"
+146,LRU Cache,https://leetcode.com/problems/lru-cache/,1. Queue and dict<br>2. OrderedDict
+150,Evaluate Reverse Polish Notation,https://leetcode.com/problems/evaluate-reverse-polish-notation/,Stack
+152,Maximum Product Subarray,https://leetcode.com/problems/maximum-product-subarray/,"DP, f(k) = max(f(k-1) * A[k], A[k], g(k-1) * A[k]), g(k) = min(g(k-1) * A[k], A[k], f(k-1) * A[k]), O(n) and O(1)"
+153,Find Minimum in Rotated Sorted Array,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/,"Binary search with conditions, A[l] > A[r]"
+154,Find Minimum in Rotated Sorted Array II,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/,"Binary search with conditions, A[l] > A[r], A[l]=A[mid]=A[r]"
+155,Min Stack,https://leetcode.com/problems/min-stack/,"Add another stack for min stack, maintance this stack when the main stack pop or push: 1. Only push min, such that len(minStack)<=len(Stack) 2. Push min again when current top is min, such that len(minStack)=len(Stack)"
+166,Fraction to Recurring Decimal,https://leetcode.com/problems/fraction-to-recurring-decimal/,% and Hash to find duplicate
+167,Two Sum II - Input array is sorted,https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/,Two points O(n) and O(1)
+179,Largest Number,https://leetcode.com/problems/largest-number/,"Define a comparator with str(x) + str(y) > str(y) + str(x), O(nlgn) and O(n)"
+198,House Robber,https://leetcode.com/problems/house-robber/,"f(k) = max(f(k – 2) + num[k], f(k – 1)), O(n) and O(1)"
+200,Number of Islands,https://leetcode.com/problems/number-of-islands/,"1. Quick union find, O(nlogn) and O(n^2)<br>2. BFS with marks, O(n^2) and O(1)"
+204,Count Primes,https://leetcode.com/problems/count-primes/,"[Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Algorithm_complexity), O(nloglogn) and O(n)"
+206,Reverse Linked List,https://leetcode.com/problems/reverse-linked-list/,"1. Stack, O(n) and O(n)<br>2. Traverse on prev and curr, then curr.next = prev, O(n) and O(1)<br>3. Recursion, O(n) and O(1)"
+207,Course Schedule,https://leetcode.com/problems/course-schedule/,Cycle detection problem
+219,Contains Duplicate II,https://leetcode.com/problems/contains-duplicate-ii/,"1. Brute force<br> 2. Maintenance a set that contains previous k numbers, and check if curr in set"
+220,Contains Duplicate III,https://leetcode.com/problems/contains-duplicate-iii/,1. Sort and binary Search <br>2. Bucket sort
+223,Rectangle Area,https://leetcode.com/problems/rectangle-area/,"Rectangle A + B - common area, O(1) and O(1)"
+228,Summary Ranges,https://leetcode.com/problems/summary-ranges/,"Detect start and jump, O(n) and O(1)"
+236,Lowest Common Ancestor of a Binary Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/,"1. Recursive check left, val and right, LCA is the split paths in tree, O(n) and O(n)<br>2. Store parents during traversing tree, reverse check their lowest common parent, O(n) and O(n)"
+238,Product of Array Except Self,https://leetcode.com/problems/product-of-array-except-self/,"The ans is [0,i -1] * [i+1, len- 1]. We can twice for left and right (reverse), O(n) and O(n)"
+243,Shortest Word Distance,https://leetcode.com/problems/shortest-word-distance/,"Update index1 and index2, and check distance, O(n) and O(1)"
+252,Meeting Rooms,https://leetcode.com/problems/meeting-rooms/,"1. Sort and compare intervals[i].end with intervals[i+1], O(nlogn) and O(1)<br>2. Sort and check intervals when count >= 2, O(nlogn) and O(n)"
+268,Missing Number,https://leetcode.com/problems/missing-number/,1. Find missing by n * (n - 1)/2 - sum(nums)<br>2. XOR with index<br>3. Sort and binary search
+273,Integer to English Words,https://leetcode.com/problems/integer-to-english-words/,"Careful about corner cases, such 1-20 and 21-Hundred, O(lgn) and O(1)"
+274,H-Index,https://leetcode.com/problems/h-index/,"[Background](https://en.wikipedia.org/wiki/H-index)<br>1. Sort and check number of papers greater than h, O(nlogn) and O(1)<br>2. Counting sort, O(n) and O(n)"
+286,Walls and Gates,https://leetcode.com/problems/walls-and-gates/,"BFS with queue, O(mn) and O(mn)"
+305,Number of Islands II,https://leetcode.com/problems/number-of-islands-ii/,"Quick union find with weights, O(nlogn) and O(n)"
+322,Coin Change,https://leetcode.com/problems/coin-change/,"Bottom-up or top-down DP, dp[n] = min(dp[n], dp[n - v_i]), where v_i is the coin, O(amount * n) and O(amount)"
+336,Palindrome Pairs,https://leetcode.com/problems/palindrome-pairs/,"1. Create a reverse word to index map, then for each word, check prefix and posfix, O(nk^2) and O(n)<br>2. Tire tree, O(nk^2) and O(n)"
+337,House Robber III,https://leetcode.com/problems/house-robber-iii/,"1. Recursion with hash map, O(n) and O(n)<br>2. Recursion on two steps, O(n) and O(1)"
+347,Top K Frequent Elements,https://leetcode.com/problems/top-k-frequent-elements/,"1. Sort by frequency, O(nlogn) and O(n). <br> 2. we can build a min heaq (based on frequency), then pop min until there are k element, O(klgn) and O(n)"
+367,Valid Perfect Square,https://leetcode.com/problems/valid-perfect-square,[Integer square root](https://en.wikipedia.org/wiki/Integer_square_root#Using_only_integer_division)<br>1. 1+3+…+(2n-1) = n^2<br>2. Binary search<br>3. Newton's method
+368,Largest Divisible Subset,https://leetcode.com/problems/largest-divisible-subset/,"Sort and generate x subset with previous results, O(n^2) and O(n^2)"
+383,Ransom Note,https://leetcode.com/problems/ransom-note/,"Get letter frequency (table or hash map) of magazine, then check randomNote frequency"
+384,Shuffle an Array,https://leetcode.com/problems/shuffle-an-array/,"[Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle), O(n) and O(n)"
+387,First Unique Character in a String,https://leetcode.com/problems/first-unique-character-in-a-string/,"Get frequency of each letter, return first letter with frequency 1, O(n) and O(1) "
+388,Longest Absolute File Path,https://leetcode.com/problems/longest-absolute-file-path/,"Store last length and rindex, O(n) and O(n)"
+389,Find the Difference,https://leetcode.com/problems/find-the-difference/,"1. Imaging letter a as 0, then the sum(t)-sum(s) is the result<br> 2. Based on solution 1, bit manipulate"
+400,Nth Digit,https://leetcode.com/problems/nth-digit/,islands * 4 - overlaps * 2 
+401,Binary Watch,https://leetcode.com/problems/binary-watch/,Note that 12 * 60 is much less than 2^n or n^2.
+404,Sum of Left Leaves,https://leetcode.com/problems/sum-of-left-leaves/,1. Recursively DFS with root.left.left and root.left.right check<br>2. The same DFS based on stack
+405,Convert a Number to Hexadecimal,https://leetcode.com/problems/convert-a-number-to-hexadecimal/,"[Two's complement](https://en.wikipedia.org/wiki/Two%27s_complement) 1. Bit manipulate, each time handle 4 digits<br>2. Python (hex) and Java API (toHexString & Integer.toHexString)"
+409,Longest Palindrome,https://leetcode.com/problems/longest-palindrome/description/,"Length of Palindrome is always 2n or 2n + 1. So, get all possible 2*n, and choose a single one as 1 if it exists."
+412,Fizz Buzz,https://leetcode.com/problems/fizz-buzz/,"1. From 1 to n, condition check<br>2. Condition check and string connect"
+414,Third Maximum Number,https://leetcode.com/problems/third-maximum-number/,"1. Keep max 1-3 then compare, O(n) and O(1)<br>2. PriorityQueue, O(n) and O(1)"
+415,Add Strings,https://leetcode.com/problems/add-strings/,"Two points, careful abour carry, O(n) and O(n)"
+416,Partition Equal Subset Sum,https://leetcode.com/problems/partition-equal-subset-sum/,"DP, Check if sum of some elements can be half of total sum, O(total_sum / 2 * n) and O(total_sum / 2)"
+421,Maximum XOR of Two Numbers in an Array,https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/,"Check 0~32 prefix, check if there is x y in prefixes, where x ^ y = answer ^ 1, O(32n) and O(n)"
+434,Number of Segments in a String,https://leetcode.com/problems/number-of-segments-in-a-string/description/,1. trim &split<br>2. Find segment in place
+438,Find All Anagrams in a String,https://leetcode.com/problems/find-all-anagrams-in-a-string/,Build a char count list with 26-256 length. Note that this list can be update when going through the string. O(n) and O(1)
+441,Arranging Coins,https://leetcode.com/problems/arranging-coins/,O(n) time.
+443,String Compression,https://leetcode.com/problems/string-compression/description/,"Maintain curr, read, write and anchor (start of this char)."
+453,Number of Segments in a String,https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/,"Each move is equal to minus one element in array, so the answer is the sum of all elements after minus min."
+458,Poor Pigs,https://leetcode.com/problems/poor-pigs/,[2 pigs for 5 * 5 metric](https://leetcode.com/problems/poor-pigs/discuss/94266/Another-explanation-and-solution)
+461,Hamming Distance,https://leetcode.com/problems/hamming-distance/,"Hamming Distance is related to XOR for numbers. So, XOR then count 1. O(n)"
+463,Island Perimeter,https://leetcode.com/problems/island-perimeter/,"math, find the area, actual number, then find the digit"
+475,Heaters,https://leetcode.com/problems/heaters/,"1. Binary search hourse in heater array, O(nlogn) and O(1)<br> 2. Two points, O(nlogn) and O(1)"
+479,Largest Palindrome Product,https://leetcode.com/problems/largest-palindrome-product/,"1. Product max palindrome than check, O(n^2) and O(1)<br>2. [Math](https://leetcode.com/problems/largest-palindrome-product/discuss/96305/Python-Solution-Using-Math-In-48ms)"
+482,License Key Formatting,https://leetcode.com/problems/license-key-formatting/,"String processing, lower and len % K, O(n) and O(n)"
+485,Max Consecutive Ones,https://leetcode.com/problems/max-consecutive-ones/,"Add one when encounter 1, set to 0 when encounter 0, O(n) and O(1)"
+509,Fibonacci Number,https://leetcode.com/problems/fibonacci-number/,"1. Recursive, O(n) <br>2. DP with memo, O(n). Note that N<=30, which means that we can keep a memo from 0 to 30."
+523,Continuous Subarray Sum,https://leetcode.com/problems/continuous-subarray-sum/description/,O(n) solution using dict()
+538,Convert BST to Greater Tree,https://leetcode.com/problems/convert-bst-to-greater-tree/description/,Right first DFS with a variable recording sum of node.val and right.val. 1. Recursive.<br>2. Stack 3. Reverse Morris In-order Traversal
+541,Reverse String II,https://leetcode.com/problems/reverse-string-ii/solution/,"Handle each 2k until reaching end, On(n) and O(n)"
+543,Diameter of Binary Tree,https://leetcode.com/problems/diameter-of-binary-tree/description/,DFS with O(1) for max answer
+557,Reverse Words in a String III,https://leetcode.com/problems/reverse-words-in-a-string-iii/,"String handle: Split with space than reverse word, O(n) and O(n). Better solution is that reverse can be O(1) space in array."
+560,Subarray Sum Equals K,https://leetcode.com/problems/subarray-sum-equals-k/,"Note that there are n^2 possible pairs, so the key point is accelerate computation for sum and reduce unnecessary pair. 1. Cummulative sum, O(n^2) and O(1)/O(n)<br>2. Add sum into hash, check if sum - k is in hash, O(n) and O(n)"
+572,Subtree of Another Tree,https://leetcode.com/problems/subtree-of-another-tree/description/,1. Tree traverse and compare<br>2. Tree to string and compare
+605,Can Place Flowers,https://leetcode.com/problems/can-place-flowers/,"One time scan, check [i-1] [i] and [i+1], O(n) and O(1)"
+617,Merge Two Binary Trees,https://leetcode.com/problems/merge-two-binary-trees/description/,Traverse both trees Recursion & Iterative (stack)
+628,Maximum Product of Three Numbers,https://leetcode.com/problems/maximum-product-of-three-numbers/,"Actually, we should only care about min1, min2 and max1-max3, to find these five elements, we can use 1. Brute force, O(n^3) and O(1)<br>2. Sort, O(nlogn) and O(1)<br>3. Single scan with 5 elements keep, O(n) and O(1)"
+654,Maximum Binary Tree,https://leetcode.com/problems/maximum-binary-tree/,"1. Divide and conquer, recursive, O(n^2)<br>2. Monotonic stack, O(n)"
+665,Non-decreasing Array,https://leetcode.com/problems/non-decreasing-array/,"1. Find the broken index, then check this point, O(n) and O(1)<br>2. Replace broken point with correct value, then check if there are more than 1 broken point, O(n) and O(1)"
+668,Kth Smallest Number in Multiplication Table,https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/,"Binary search, O(mlog(mn) and O(1)"
+674,Longest Continuous Increasing Subsequence,https://leetcode.com/problems/longest-continuous-increasing-subsequence/,"Scan nums once, check nums[i] < nums[i+1], if not reset count, O(n) and O(1)"
+680,Valid Palindrome II,https://leetcode.com/problems/valid-palindrome-ii/,"Recursively check s[left == end, when not equal delete left or right."
+692,Top K Frequent Words,https://leetcode.com/problems/top-k-frequent-words/,"1. Sort based on frequency and alphabetical order, O(nlgn) and O(n)<br>2. Find top k with Heap, O(nlogk) and O(n)"
+697,Degree of an Array,https://leetcode.com/problems/degree-of-an-array/,"1. Find degree and value, then find smallest subarray (start and end with this value), O(n) and O(n)<br>2. Go through nums, remember left most pos and right most for each value, O(n) and O(n)"
+700,Search in a Binary Search Tree,https://leetcode.com/problems/search-in-a-binary-search-tree/,"Recursive or iteration, O(logn)"
+703,Kth Largest Element in a Stream,https://leetcode.com/problems/kth-largest-element-in-a-stream/,"1. Sort and insert into right place, O(nlgn) and O(n)<br>2. k largest heap, O(nlogk) and O(n)"
+706,Design HashMap,https://leetcode.com/problems/design-hashmap/,"Hash implementation, mod is fine. Be careful about key conflict and key remove."
+709,To Lower Case,https://leetcode.com/problems/to-lower-case/,String processing:<br>1. str.lower() or str.toLowerCase()<br>2. ASCII processing. O(n) and O(1)
+717,1-bit and 2-bit Characters,https://leetcode.com/problems/1-bit-and-2-bit-characters/,"1. Go through bits, 1 skip next, O(n) and O(1)<br>2. Find second last zero reversely, O(n) and O(1)"
+720,Longest Word in Dictionary,https://leetcode.com/problems/longest-word-in-dictionary/,"1. Brute Force, O(sum(w^2)) and O(w)<br>2. Tire Tree, O(sum(w) and O(w))<br>3. Sort and word without last char, O(nlogn + sum(w)) and O(w)"
+724,Find Pivot Index,https://leetcode.com/problems/find-pivot-index/,"Seach the array to find a place where left sum is equal to right sum, O(n) and O(1)"
+728,Self Dividing Numbers,https://leetcode.com/problems/self-dividing-numbers/solution/,"Brute Force check every digit, O(nlogD) and O(1)"
+733,Flood Fill,https://leetcode.com/problems/flood-fill/,"1. DFS with stack or recursive, O(n) and O(n)<br>2. BFS with queue, O(n) and O(n)"
+760,Find Anagram Mappings,https://leetcode.com/problems/find-anagram-mappings/,"Hash table with A's (val, index), O(n) and O(n)"
+766,Toeplitz Matrix,https://leetcode.com/problems/toeplitz-matrix/,"Check from top left to bottom right, i,j == i + 1, j + 1."
+771,Jewels and Stones,https://leetcode.com/problems/jewels-and-stones/description/,Count given char in string. Hash or table. [Oneline](https://leetcode.com/problems/jewels-and-stones/discuss/113574/1-liners-PythonJavaRuby)
+784,Letter Case Permutation,https://leetcode.com/problems/letter-case-permutation/,"Note that this is a 2^n problem. 1. Recursively generate result with previous result <br> 2. Bin Mask, number of zeor equal to number of alpha<br>3. Python build in product."
+804,Unique Morse Code Words,https://leetcode.com/problems/unique-morse-code-words/description/,"String, Hash and Set. Set is recommended."
+811,Subdomain Visit Count,https://leetcode.com/problems/subdomain-visit-count/,"String split and HashMap, O(n) and O(n)"
+819,Most Common Word,https://leetcode.com/problems/most-common-word/,"String processing, be careful about 'b,b,b'. regex is recommended."
+832,Flipping an Image,https://leetcode.com/problems/flipping-an-image/,"Invert and swap can be done at the same time, and careful about (n + 1)/2, O(n^2) and O(1)"
+836,Rectangle Overlap,https://leetcode.com/problems/rectangle-overlap/,"1. Check position, O(1) and O(1)<br>2. Check area, O(1) and O(1) "
+844,Backspace String Compare,https://leetcode.com/problems/backspace-string-compare/,"1. Stack pop when encounters #, O(n) and O(n)<br>2. Compare string from end to start, O(n) and O(1)"
+852,Peak Index in a Mountain Array,https://leetcode.com/problems/peak-index-in-a-mountain-array/,"1. Scan the array until encountering decline, O(n) and O(1)<br>2. Binary seach with additional check for [i + 1], O(logn) and O(1)"
+867,Transpose Matrix,https://leetcode.com/problems/transpose-matrix/,Res[i][j] = A[j][i]
+868,Binary Gap,https://leetcode.com/problems/binary-gap/," 1. Store index and check, O(logn) and O(logn)<br>2. One pass and store max, O(logn) and O(1)"
+872,Leaf-Similar Trees,https://leetcode.com/problems/leaf-similar-trees/,"DFS (stack or recursion) get leaf value sequence and compare, O(n) and O(n)"
+876,Middle of the Linked List,https://leetcode.com/problems/middle-of-the-linked-list/,"1. Copy to array, O(n) and O(n)<br>2. Fast and slow point, where fast point is 2 times faster than slow point, O(n) and O(1)"
+904,Fruit Into Baskets,https://leetcode.com/problems/fruit-into-baskets/,"1. Scan through blocks of tree, O(n) and O(n)<br>2. Mainten a sliding window with start and curr point, O(n) and O(n)."
+905,Sort Array By Parity,https://leetcode.com/problems/sort-array-by-parity/,"1. Sort with condition, O(nlogn) and O(1)<br>2. Scan all and split odd and even number into different array, O(n) and O(n)<br>3. In place swap similar to quick sort, O(n) and O(1)"
+922,Sort Array By Parity II,https://leetcode.com/problems/sort-array-by-parity-ii/,"1. Place odd and even number in odd and even place, not sort is needed. O(n) and O(1)<br>2. Two points with quick sort swap idea, O(n) and O(1)."
+929,Unique Email Addresses,https://leetcode.com/problems/unique-email-addresses/,String handle and hash (or set)
+933,Number of Recent Calls,https://leetcode.com/problems/number-of-recent-calls/,"Queue, remove val in head when val < t - 3000, O(n) and O(n)"
+937,Reorder Log Files,https://leetcode.com/problems/reorder-log-files/,"1. Comstom Sort, O(nlogn) and O(1)<br>2. Separete letter logs and digit logs, then sort letter logs and merge with digit logs, O(nlogn) and O(n)"
+945,Minimum Increment to Make Array Unique,https://leetcode.com/problems/minimum-increment-to-make-array-unique/,"Sort, then list duplicate and missing value in sorted list. O(nlgn) and O(n)"
+946,Validate Stack Sequences,https://leetcode.com/problems/validate-stack-sequences/,Add a stack named inStack to help going through pushed and popped. O(n) and O(n)
+953,Verifying an Alien Dictionary,https://leetcode.com/contest/weekly-contest-114/problems/verifying-an-alien-dictionary/,"Use hashmap to store index of each value, then create a comparator based on this index, O(n) and O(n)"
+954,Array of Doubled Pairs,https://leetcode.com/contest/weekly-contest-114/problems/array-of-doubled-pairs/,"Sort, then use hashmap to store the frequency of each value. Then, check n, 2 * n in hashmap, O(nlogn) and O(n)"
+961,N-Repeated Element in Size 2N Array,https://leetcode.com/problems/n-repeated-element-in-size-2n-array/submissions/,"Hash and count number, O(n) and O(n)"
+962,Maximum Width Ramp,https://leetcode.com/problems/maximum-width-ramp/,"1. Sort index by value, then transfer problem into finding max gap between index, O(nlogn) and O(1)<br>2. Binary Search for candicates, O(nlogn) and O(n)"
+977,Squares of a Sorted Array,https://leetcode.com/problems/squares-of-a-sorted-array/,"1. Sort, O(nlogn) and O(n)<br>2. Two point, O(n) and O(n)"
+973,K Closest Points to Origin,https://leetcode.com/problems/k-closest-points-to-origin/,"1. Sort and get 0-K, O(nlogn) and O(1)<br>2. Min Heap, O(nlogk) and O(k)"
+981,Time Based Key-Value Store,https://leetcode.com/problems/time-based-key-value-store/,Get: O(log(n)) time<br>Set: O(1) time
+1089,Duplicate Zeros,https://leetcode.com/problems/duplicate-zeros/,"2 Pass, store last position and final move steps, O(n) and O(1)"
+1108,Defanging an IP Address,https://leetcode.com/problems/defanging-an-ip-address/,"String manipulate (split, replace and join), O(n) and O(n)"
+1189,Maximum Number of Balloons,https://leetcode.com/problems/maximum-number-of-balloons/,"Count letters in `balon`, then find min, O(n) and O(1)"
+1260,Shift 2D Grid,https://leetcode.com/problems/shift-2d-grid/,"Final position of each element can be computed according to k, m and n, e.g., k == mn, then don't move, O(mn) and O(mn)"
+1290,Convert Binary Number in a Linked List to Integer,https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/,Take 2 to the power digit position from right (starting from 0) and multiply it with the digit
+1304,Find N Unique Integers Sum up to Zero,https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/,"[1,n-1] and its negative sum"
+1310,XOR Queries of a Subarray,https://leetcode.com/problems/xor-queries-of-a-subarray,"Compute accumulated xor from head, qeury result equals to xor[0, l] xor x[0, r], O(n) and O(n)"
+1323,Maximum 69 Number,https://leetcode.com/problems/maximum-69-number/,"9 is greater than 6, so change first 6 to 9 from left if exist, O(n) and O(1)"
+1337,The K Weakest Rows in a Matrix,https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/,"Check by row, from left to right, until encount first zero, O(mn) and O(1)"
+1342,Number of Steps to Reduce a Number to Zero,https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/,"If number is divisible by 2, divide the number by 2, else subtract 1 from the number, and output the number of steps, O(logn) and O(1)"
+1365,How Many Numbers Are Smaller Than the Current Number,https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/,"1. Sort and get position in sorted nums, O(nlogn) and O(n)<br>2. Fill count into 0-100, O(n) and O(1)"
+1480,Running Sum of 1d Array,https://leetcode.com/problems/running-sum-of-1d-array/,"1. Go through the array, O(n) and O(1)<br>2. Accumulate API"
+1539,Kth Missing Positive Number,https://leetcode.com/problems/kth-missing-positive-number/,"Binary search, num of missing = arr[i]-i-1"
+1981,Minimize the Difference Between Target and Chosen Elements,https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/,DP memo[row][sum] to avoid recomputing
+2429,Minimize XOR,https://leetcode.com/problems/minimize-xor/,"check the num1, num2 with length and replace ""0"" compare with num1."
